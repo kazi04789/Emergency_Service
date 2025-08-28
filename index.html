@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emergency Service</title>
+   <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script
+      src="https://kit.fontawesome.com/cc12e64860.js"
+      crossorigin="anonymous"
+    ></script>
+      <!-- font style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <style>
+ .font {
+      font-family: "Raleway", sans-serif;
+      font-optical-sizing: auto;
+    }
+    .inter{
+     font-family: "Inter", sans-serif;
+     font-optical-sizing: auto;
+
+    }
+  </style>
+
+<body class="font bg-[#F5FFF6]">
+  <!----Navbar section---->
+    <nav
+      class="flex flex-col sm:flex-row justify-between md:items-center bg-white  mx-auto md:px-10 px-4 md:m-0 pt-5"
+    >
+      <div class="flex justify-start md:justify-center items-center gap-2 ">
+        <img src="./assets/logo.png" alt="" class="w-[45px] " />
+        <div>
+          <h2 class="font-extrabold text-[#006747] hidden sm:block">
+            Emergency <br />
+            Service
+          </h2>
+          <h2 class="font-extrabold text-[#006747] sm:hidden">
+            Emergency Service
+          </h2>
+        </div>
+      </div>
+      <!-- heart count -->
+      <div class="flex gap-3">
+        <div
+          class="flex items-center gap-2 md:rounded-3xl rounded-xl bg-[#41FF6B]/10 md:my-6 my-9 px-7 py-3"
+        >
+          <span id="heartCount" class="font-medium text-[20px] inter">0</span>
+          <img src="./assets/heart.png" alt="" class="w-6" />
+        </div>
+        <!-- Coin count -->
+        <div
+          class="flex items-center gap-2 md:rounded-3xl rounded-xl bg-[#41FF6B]/10 md:my-6 my-9 px-7 py-3"
+        >
+          <img src="./assets/coin.png" alt="" class="w-6" />
+          <span id="coinCount" class="font-medium text-[20px] inter">100</span>
+        </div>
+        <!-- Copy count -->
+        <div
+          class="flex items-center gap-2 md:rounded-3xl rounded-xl  bg-[#00A63E] md:my-6 my-9 px-7 py-3 text-amber-50 font-medium"
+        >
+          <span id="copyCount" class="text-[20px]">0</span>
+          <p>Copy</p>
+        </div>
+      </div>
+    </nav>
+
+    <!-- title section -->
+     
+  
+</body>
+</html>
